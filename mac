@@ -59,8 +59,5 @@ echo "Installing RVM (Ruby Version Manager) and Ruby 1.9.3, which becomes the de
 echo "Installing Bundler to build gem dependencies ..."
   successfully gem install bundler --no-rdoc --no-ri
 
-echo "Installing Rails to write and run web applications ..."
-  successfully gem install rails --no-rdoc --no-ri
-
 echo "Installing the foreman gem for serving your Rails apps in development mode ..."
   successfully gem install foreman --no-rdoc --no-ri
