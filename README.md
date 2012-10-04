@@ -31,17 +31,19 @@ What it sets up
 * Ack for finding things in files
 * Bundler gem for managing Ruby libraries
 * Foreman gem for serving Rails apps locally
-* Heroku gem for interacting with the Heroku API
-* Heroku Config plugin for local `ENV` variables
+* ~~Heroku gem for interacting with the Heroku API~~
+* ~~Heroku Config plugin for local `ENV` variables~~
 * Homebrew for managing operating system libraries
 * ImageMagick for cropping and resizing images
-* Postgres for storing relational data
-* Postgres gem for talking to Postgres from Ruby
-* Qt for headless JavaScript testing via Capybara Webkit
-* Rails gem for writing web applications
+* ~~Postgres for storing relational data~~
+* MySQL
+* ~~Postgres gem for talking to Postgres from Ruby~~
+* ~~Qt for headless JavaScript testing via Capybara Webkit~~
+* PhantomJS for headless JavaScript testing via Poltergeist
+* ~~Rails gem for writing web applications~~
 * Ruby stable for writing general-purpose code
 * RVM for managing versions of the Ruby programming language
-* SSH public key for authenticating with Github and Heroku
+* SSH public key for authenticating with Github
 * Tmux for saving project state and switching between projects
 
 It should take less than 15 minutes to install (depends on your machine).
