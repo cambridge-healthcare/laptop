@@ -46,8 +46,11 @@ echo "Installing reattach-to-user-namespace, for copy-paste and RubyMotion compa
 echo "Installing ImageMagick, good for cropping and re-sizing images ..."
   successfully brew install imagemagick
 
-echo "Installing QT, used by Capybara Webkit for headless Javascript integration testing ..."
-  successfully brew install qt
+echo "Installing PhantomJS, used by Poltergeist Webkit for headless Javascript integration testing ..."
+  successfully brew install phantomjs
+
+echo "Install Redis, used by Resque for job queues"
+  successfully brew install redis
 
 echo "Installing RVM (Ruby Version Manager) and Ruby 1.9.3, which becomes the default ..."
   successfully curl -L https://get.rvm.io | bash -s -- --version 1.15.10 --ruby
